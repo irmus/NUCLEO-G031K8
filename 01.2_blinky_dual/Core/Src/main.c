@@ -96,6 +96,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	// SW_IN 핀 상태가 H 라면 delay time을 250ms로 한다.
+	// SW_IN은 pull-up 저항이 설정되어 있으므로 SW가 off 상태일 때 H로 읽혀진다.
 	if (HAL_GPIO_ReadPin(SW_IN_GPIO_Port, SW_IN_Pin) == GPIO_PIN_SET)
 		delay_time = 250;
 	else
