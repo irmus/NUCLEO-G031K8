@@ -19,5 +19,5 @@
     * ![main.c](Doc/main_1.png)
 * Loop
     * ![main.c](Doc/main_2.png)
-    * HAL_GPIO_ReadPin()
+    * `HAL_GPIO_ReadPin()`
         * GPIO 입력으로 설정된 핀의 상태(H/L)를 읽는다.

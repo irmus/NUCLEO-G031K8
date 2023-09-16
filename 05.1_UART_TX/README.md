@@ -1,7 +1,7 @@
 # 05.1_UART_TX
 ## 개요
 * UART를 이용해 메시지를 전송(TX)한다.
-* printf()를 활용한다.
+* `printf()`를 활용한다.
 
 ## 회로 구성
 * ![devmgr](Doc/devmgr.png)
@@ -19,7 +19,7 @@
     * ![main.c](Doc/main_1.png)
 * Loop
     * ![main.c](Doc/main_2.png)
-    * HAL_UART_Transmit()
+    * `HAL_UART_Transmit()`
         * UART를 통해 문자열을 송신한다
         * 모든 문자열 송신이 마 마무리될 때 까지 리턴하지 않는다.
         * 115200 bps로 10글자를 송신하려면 약 0.87ms 걸린다.

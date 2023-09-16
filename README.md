@@ -7,5 +7,5 @@
 1. TBD
 1. TBD
 1. UART
-    * [05.1_UART_TX](05.1_UART_TX/README.md) : UART 송신. printf()
-    * [05.5_stdio](05.5_stdio/README.md) : UART를 사용한 standard IO redirection. printf()를 손쉽게 사용한다.
+    * [05.1_UART_TX](05.1_UART_TX/README.md) : UART 송신. `printf()`
+    * [05.5_stdio](05.5_stdio/README.md) : UART를 사용한 standard IO redirection. `printf()`를 손쉽게 사용한다.
